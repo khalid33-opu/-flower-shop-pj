@@ -25,18 +25,24 @@ body{
 }
 .banner-text-container{
     width: 50%;
-    /border: 2px solid red; 
+    /* border: 2px solid red;  */
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: rgba(39, 39, 39, 0.6)
     
 }
+.banner-text-container h1{
+    color: rgb(39, 39, 39);
+}
+
 .banner-image-container{
     width: 50%;
     /* border: 2px solid green; */
     height: 600px;
+    
 }
 .banner-text-container button{
     margin-right:470px;
@@ -44,3 +50,75 @@ body{
     height: 31px;
     background: rgb(235, 122, 147);
 }
+/* banner-image-container */
+.banner-image-container{
+    width: 50%;
+    height: 600px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.banner-image-container img {
+    width: 75%;
+    height: 600px;
+    /* border: 2px solid red; */  
+}
+/* Featured-image-container */
+.Featured-image-container{
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+}
+.featured-title-container h1{
+    color: rgb(39, 39, 39);
+
+}
+.featured-title-container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    color: rgba(39, 39, 39, 0.6);
+    
+}
+
+/* Featured-image */
+.Featured-images{
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    margin-top: 80px;
+    /* border: 1px solid red;   */
+ }
+
+ 
+.first-image, .second-image, .third-image{ 
+    width: 380px;
+    width: 33%;
+    height: 450px; 
+     /* border: 2px solid red; */
+    display: flex; 
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    border-radius: 50% 50% 0 0;    
+}
+
+#first{
+    background-color: #F2DEE8;
+}
+#second{
+    background-color: #DAF0F1;
+}
+#third{
+    background-color: #E4ECDC;
+}
+
+
